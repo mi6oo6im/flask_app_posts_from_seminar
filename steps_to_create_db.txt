@@ -1,0 +1,6 @@
+>>> import sqlite3
+>>> conn = sqlite3.connect('posts.db')
+>>> conn.execute('CREATE TABLE post (title TEXT, text TEXT)')
+<sqlite3.Cursor object at 0x000001C965AADF40>
+>>> conn.close()
+>>> exit()
